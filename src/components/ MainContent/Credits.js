@@ -3,7 +3,9 @@ import './Credits.css';
 
 const Credits = () => {
     return (
-        <h1 className='credits'>credits</h1>
+        <div className='credits'>
+            <h1>Credits</h1>
+        </div>
     )
 }
 

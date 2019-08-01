@@ -4,9 +4,9 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <>
-           <h1>NASA Photo Of The Day</h1> 
-        </>
+        <div className='header'>
+            <h1>Astronomy Picture Of the Day</h1> 
+        </div>
     );
 }
 

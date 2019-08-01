@@ -4,7 +4,7 @@ import './ImageComp.css';
 const ImageComp = () => {
     return (
         <div className='image-container'>
-            <h1>Image</h1>
+            <img></img>
             <p>lorem ipsum</p>
         </div>
     );
