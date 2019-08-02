@@ -1,11 +1,17 @@
 import React from'react';
 import './ImageComp.css';
 
-const ImageComp = () => {
+const ImageComp = (image) => {
+    // console.log(image)
     return (
         <div className='image-container'>
-            <img></img>
-            <p>lorem ipsum</p>
+            <div>
+               <h1>{image.title}</h1> 
+            </div>                
+            <div className='img-div'>
+                <img alt='' src={image.image}></img>
+                <p>{image.explanation}</p>
+            </div>
         </div>
     );
 }

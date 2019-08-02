@@ -1,14 +1,12 @@
 import React from 'react';
 import './MainContent.css';
-import Credits from './Credits';
 import ImageComp from './ImageComp';
 
-const MainContent = () => {
+const MainContent = (imgData) => {
     return (
         <div className='main-content'>
-            <Credits />
             <div className='image-container'>
-                <ImageComp />
+                <ImageComp image={imgData.imgUrl} explanation={imgData.explanation} title={imgData.title}/>
             </div>
         </div>        
     );
