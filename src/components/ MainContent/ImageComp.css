@@ -1,0 +1,27 @@
+.image-container {
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.image-container .img-div {
+    display: flex;
+}
+
+.image-container img {
+    max-height: 60%;
+    width: 900%;
+    margin: 50px 0px 0px 50px;
+}
+
+.image-container p {
+    padding: 50px;
+    font-size: 1.07rem
+}
